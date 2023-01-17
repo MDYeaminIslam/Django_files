@@ -1,0 +1,8 @@
+
+1.pip install django - will help to install django
+2.pip list - will show you Django installed or not.
+3.starting django project command:"django-admin startproject project_name" then press enter
+4.Then go to project_name folder
+5.dir will show the directories
+6.start the server command:python manage.py runserver
+7.Read the django document "github django repo"

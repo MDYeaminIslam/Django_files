@@ -1,0 +1,7 @@
+Django extension list:
+1.Django-intellisense
+2.Copy Django Model Fields
+3.Django
+4.Djaneiro - Django Snippets
+5.Python
+6.Sourcery
