@@ -1,5 +1,4 @@
 #range(start, stop, step) this is the basic syntax of range function
-
 #converting range to list
 value = list(range(10))
 print(value)

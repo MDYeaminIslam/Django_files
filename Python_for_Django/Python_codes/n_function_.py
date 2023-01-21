@@ -4,8 +4,6 @@
     
 #name("Md.Yeamin","Islam") #this are the arguments
 #we have to give same amount of arguments as the parameters we have given.
-
-
 #if we don't know the amount of arguments we can use artibitrary arguments.
 def fun1(*name):
     print(name[2])

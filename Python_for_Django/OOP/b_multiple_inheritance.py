@@ -29,8 +29,8 @@ class B():
 #and in multilevel inheritance we can access latest class methods and constructor 
 #class B inherits class A and class C inherits class B
 #here c will inherit the class A and class B together
-class C(B,A):
-    def __init__(self):
+class C(A,B):
+    def __init__(self,name,job):
         #accessing parent class constructor.
         A.__init__(self,name)
         B.__init__(self,job)
@@ -38,10 +38,12 @@ class C(B,A):
         
     
     def hello(self):
+        super().hello() #here super() will call the hello() method of the class A because this method follow __mro__() sequence.
+        B.hello() #calling particular class method
         print(f"{self.name} is a {self.job}")
 
 #here c will use the constructor of class B
-newobj = C()
+newobj = C("Yeamin","Programmer")
 newobj.hello()
 print(C.__mro__)
 #MRO->(Method Resolution Order)

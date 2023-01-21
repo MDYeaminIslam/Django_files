@@ -1,5 +1,5 @@
 #set basic
-#set is not take duplicate value,unorderd
+#set is not take duplicate value,unordered,not allow duplicate values
 myset = {"Yeamin",24,"Hii"}
 print(myset)
 

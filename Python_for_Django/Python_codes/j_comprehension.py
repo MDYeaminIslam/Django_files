@@ -1,5 +1,4 @@
 #Comprehension
-
 #make a list of squares normal/old way
 myList = [1,2,6,3,5,8]
 newList = []
